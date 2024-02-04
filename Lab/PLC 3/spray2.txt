@@ -1,0 +1,6 @@
+1.about the clock: you use timers to represent it but we can generate
+it manually by using single input ( bush button : 0101010101)
+2.The output Q1 (motor / Shift register reset input) must be asserted
+to all lines.
+3.Gun1 is S[1] not S[0].
+4.Shift Register outputs from 1 to 16.

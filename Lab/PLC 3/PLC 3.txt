@@ -1,0 +1,34 @@
+It is required  to design a ladder diagram for a shift register used to control a spray painting operation in a production line (shown in the figure)
+ 
+The production line has a number of fundamental requirements:
+- painting takes place only when an object to be painted is present on the rack
+- undercoat is applied by spray gun 1
+- undercoat is dried in oven 1
+- undercoat is applied by spray gun 2
+- undercoat is dried in oven 2
+ 
+Notes:
+- use a shift register of 16 bits
+- each group must present a report of their design (a clear ladder diagram is enough) at the beginning of the lab period
+
+Hints:
+1-Assume there is a way to make a shift register in Toshiba which you will know in the lab
+2-Assume you can use each bit in the register as a NO or NC switch
+
+There exists the shift register of 16 bits in the lab,it is existing in the manual of the previous year:
+
+Assume there exist the 16 bit shift register of 16 cases.
+
+Assume that there exists an input x1 to the shift register
+
+Assume that there exists an output called s1 representing the state of the shift register
+   
+Question :
+The shift register should have 2 inputs (not one) , one for input data, and the other for the clock..
+and about the output, there should be 16 available outputs..
+ 
+Concerning the register output, disgard the drawing (16 outputs) cause it is only one that
+outputs at a time 
+ 
+Concerning the second input, it enters to the register from outside or assume that it is an initial condition. 
+

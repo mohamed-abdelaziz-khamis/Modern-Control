@@ -1,0 +1,796 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<Zelio>
+	<FileVersion>7</FileVersion>
+	<Module_Identity>
+		<Reference>SR1-B201BD,170,6</Reference>
+		<LineCount>80</LineCount>
+		<RemanenceSupported>1</RemanenceSupported>
+		<HelpSupported>0</HelpSupported>
+		<IxZxForced>1</IxZxForced>
+		<Bus_ASI>0</Bus_ASI>
+		<Blind>0</Blind>
+		<Ix_Count>10</Ix_Count>
+		<Qx_Count>8</Qx_Count>
+		<Xx_Count>6</Xx_Count>
+		<Rx_Count>4</Rx_Count>
+		<Cx_Count>10</Cx_Count>
+		<Vx_Count>0</Vx_Count>
+		<Tx_Count>10</Tx_Count>
+		<Ax_Count>8</Ax_Count>
+	</Module_Identity>
+	<Module_Properties>
+		<FastFilter>0</FastFilter>
+		<ZxActif>0</ZxActif>
+		<HelpOn>1</HelpOn>
+		<Password></Password>
+		<Langage>0</Langage>
+		<VisuBloc></VisuBloc>
+	</Module_Properties>
+	<Program pageCount='20'>
+		<page No='0'>
+			<line No='0'>
+				<Comment>Q1: reset of the shift register, I1: Limit switch 1, I2  
+limit Switch 2</Comment>
+				<Value>I1i2--[Q1</Value>
+			</line>
+			<line No='1'>
+				<Comment></Comment>
+				<Value>Q1       </Value>
+			</line>
+			<line No='2'>
+				<Comment>I3 : Sift register Clock manual input  , Q2 : Shift 
+register Clock </Comment>
+				<Value>Q1I3--[Q2</Value>
+			</line>
+			<line No='3'>
+				<Comment>I4 : Shift register manual Data input, Q3 : Shift register 
+data input at the m/c</Comment>
+				<Value>Q1I4--[Q3</Value>
+			</line>
+			<links>400</links>
+		</page>
+		<page No='1'>
+			<line No='4'>
+				<Comment></Comment>
+				<Value>Q1----[Q4</Value>
+			</line>
+			<line No='5'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='6'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='7'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='2'>
+			<line No='8'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='9'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='10'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='11'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='3'>
+			<line No='12'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='13'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='14'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='15'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='4'>
+			<line No='16'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='17'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='18'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='19'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='5'>
+			<line No='20'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='21'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='22'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='23'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='6'>
+			<line No='24'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='25'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='26'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='27'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='7'>
+			<line No='28'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='29'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='30'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='31'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='8'>
+			<line No='32'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='33'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='34'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='35'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='9'>
+			<line No='36'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='37'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='38'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='39'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='10'>
+			<line No='40'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='41'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='42'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='43'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='11'>
+			<line No='44'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='45'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='46'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='47'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='12'>
+			<line No='48'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='49'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='50'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='51'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='13'>
+			<line No='52'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='53'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='54'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='55'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='14'>
+			<line No='56'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='57'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='58'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='59'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='15'>
+			<line No='60'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='61'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='62'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='63'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='16'>
+			<line No='64'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='65'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='66'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='67'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='17'>
+			<line No='68'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='69'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='70'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='71'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='18'>
+			<line No='72'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='73'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='74'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='75'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+		<page No='19'>
+			<line No='76'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='77'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='78'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<line No='79'>
+				<Comment></Comment>
+				<Value>         </Value>
+			</line>
+			<links>000</links>
+		</page>
+	</Program>
+	<Bloc_Properties>
+		<Cx>
+			<C1>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</C1>
+			<C2>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</C2>
+			<C3>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</C3>
+			<C4>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</C4>
+			<C5>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</C5>
+			<C6>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</C6>
+			<C7>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</C7>
+			<C8>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</C8>
+			<C9>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</C9>
+			<CA>
+				<Comment></Comment>
+				<Properties>00000</Properties>
+				<Remanent>0</Remanent>
+			</CA>
+		</Cx>
+		<Ax>
+			<A1>
+				<Comment></Comment>
+				<Properties>010000</Properties>
+			</A1>
+			<A2>
+				<Comment></Comment>
+				<Properties>010000</Properties>
+			</A2>
+			<A3>
+				<Comment></Comment>
+				<Properties>010000</Properties>
+			</A3>
+			<A4>
+				<Comment></Comment>
+				<Properties>010000</Properties>
+			</A4>
+			<A5>
+				<Comment></Comment>
+				<Properties>010000</Properties>
+			</A5>
+			<A6>
+				<Comment></Comment>
+				<Properties>010000</Properties>
+			</A6>
+			<A7>
+				<Comment></Comment>
+				<Properties>010000</Properties>
+			</A7>
+			<A8>
+				<Comment></Comment>
+				<Properties>010000</Properties>
+			</A8>
+		</Ax>
+		<Tx>
+			<T1>
+				<Comment></Comment>
+				<Properties>01010000</Properties>
+				<Remanent>0</Remanent>
+			</T1>
+			<T2>
+				<Comment></Comment>
+				<Properties>01010000</Properties>
+				<Remanent>0</Remanent>
+			</T2>
+			<T3>
+				<Comment></Comment>
+				<Properties>01010000</Properties>
+				<Remanent>0</Remanent>
+			</T3>
+			<T4>
+				<Comment></Comment>
+				<Properties>01010000</Properties>
+				<Remanent>0</Remanent>
+			</T4>
+			<T5>
+				<Comment></Comment>
+				<Properties>01010000</Properties>
+				<Remanent>0</Remanent>
+			</T5>
+			<T6>
+				<Comment></Comment>
+				<Properties>01010000</Properties>
+				<Remanent>0</Remanent>
+			</T6>
+			<T7>
+				<Comment></Comment>
+				<Properties>01010000</Properties>
+				<Remanent>0</Remanent>
+			</T7>
+			<T8>
+				<Comment></Comment>
+				<Properties>01010000</Properties>
+				<Remanent>0</Remanent>
+			</T8>
+			<T9>
+				<Comment></Comment>
+				<Properties>01010000</Properties>
+				<Remanent>0</Remanent>
+			</T9>
+			<TA>
+				<Comment></Comment>
+				<Properties>01010000</Properties>
+				<Remanent>0</Remanent>
+			</TA>
+		</Tx>
+		<Rx>
+			<R1>
+				<Comment></Comment>
+				<Properties>077--------77--------77--------77--------</Properties>
+			</R1>
+			<R2>
+				<Comment></Comment>
+				<Properties>077--------77--------77--------77--------</Properties>
+			</R2>
+			<R3>
+				<Comment></Comment>
+				<Properties>077--------77--------77--------77--------</Properties>
+			</R3>
+			<R4>
+				<Comment></Comment>
+				<Properties>077--------77--------77--------77--------</Properties>
+			</R4>
+		</Rx>
+		<Ix>
+			<I1>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</I1>
+			<I2>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</I2>
+			<I3>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</I3>
+			<I4>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</I4>
+			<I5>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</I5>
+			<I6>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</I6>
+			<I7>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</I7>
+			<I8>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</I8>
+			<I9>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</I9>
+			<IA>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</IA>
+		</Ix>
+		<IAx>
+			<Ib>
+				<Comment></Comment>
+				<CommentIbIc></CommentIbIc>
+				<TypeInter>2</TypeInter>
+			</Ib>
+			<Ic>
+				<Comment></Comment>
+				<CommentIbIc></CommentIbIc>
+				<TypeInter>2</TypeInter>
+			</Ic>
+		</IAx>
+		<Qx>
+			<Q1>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</Q1>
+			<Q2>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</Q2>
+			<Q3>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</Q3>
+			<Q4>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</Q4>
+			<Q5>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</Q5>
+			<Q6>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</Q6>
+			<Q7>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</Q7>
+			<Q8>
+				<Comment></Comment>
+				<TypeInter>2</TypeInter>
+			</Q8>
+		</Qx>
+		<Mx>
+			<M1>
+				<Comment></Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M1>
+			<M2>
+				<Comment></Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M2>
+			<M3>
+				<Comment></Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M3>
+			<M4>
+				<Comment></Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M4>
+			<M5>
+				<Comment></Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M5>
+			<M6>
+				<Comment></Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M6>
+			<M7>
+				<Comment></Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M7>
+			<M8>
+				<Comment></Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M8>
+			<M9>
+				<Comment></Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</M9>
+			<MA>
+				<Comment></Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</MA>
+			<MB>
+				<Comment></Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</MB>
+			<MC>
+				<Comment></Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</MC>
+			<MD>
+				<Comment></Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</MD>
+			<ME>
+				<Comment></Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</ME>
+			<MF>
+				<Comment></Comment>
+				<Remanent>0</Remanent>
+				<TypeInter>2</TypeInter>
+			</MF>
+		</Mx>
+		<Zx>
+			<Z1>
+				<Comment></Comment>
+				<TypeInter>0</TypeInter>
+			</Z1>
+			<Z2>
+				<Comment></Comment>
+				<TypeInter>0</TypeInter>
+			</Z2>
+			<Z3>
+				<Comment></Comment>
+				<TypeInter>0</TypeInter>
+			</Z3>
+			<Z4>
+				<Comment></Comment>
+				<TypeInter>0</TypeInter>
+			</Z4>
+		</Zx>
+		<Xx>
+			<X1>
+				<Comment></Comment>
+				<Properties>                        ????????</Properties>
+			</X1>
+			<X2>
+				<Comment></Comment>
+				<Properties>                        ????????</Properties>
+			</X2>
+			<X3>
+				<Comment></Comment>
+				<Properties>                        ????????</Properties>
+			</X3>
+			<X4>
+				<Comment></Comment>
+				<Properties>                        ????????</Properties>
+			</X4>
+			<X5>
+				<Comment></Comment>
+				<Properties>                        ????????</Properties>
+			</X5>
+			<X6>
+				<Comment></Comment>
+				<Properties>                        ????????</Properties>
+			</X6>
+		</Xx>
+	</Bloc_Properties>
+	<PrintInfo>
+		<HeaderRight></HeaderRight>
+		<HeaderCenter></HeaderCenter>
+		<HeaderLeft></HeaderLeft>
+		<Signature></Signature>
+		<Auteur></Auteur>
+		<Service></Service>
+		<FreeTop></FreeTop>
+		<FreeCenter></FreeCenter>
+		<FreeBottom></FreeBottom>
+		<Version></Version>
+		<Time>1098470962</Time>
+	</PrintInfo>
+<EOF></EOF>
+</Zelio>
+
